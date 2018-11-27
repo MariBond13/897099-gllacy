@@ -14,13 +14,38 @@
       </a>
       <div class="site-navigation">
         <a href="catalog.html">Каталог</a>
+        <ul class="catalog">
+          <li><a href="#">Новинки</a></li>
+          <li><a href="#">Сливочное</a></li>
+          <li><a href="#">Щербеты</a></li>
+          <li><a href="#">Фруктовый лед</a></li>
+          <li><a href="#">Мелорин</a></li>
+        </ul>
         <a href="delivery.html">Доставка и оплата</a>
         <a href="info html">О компании</a>
       </div>
       <div class="user-navigation">
-        <p class="search">Поиск</p>
-        <p class="login-link">Вход</p>
-        <p class="order cart">Пусто</p>
+        <button class="user-navigation-inner">тут будет лупа</button>
+        <form class="login-form" action="????????" method="post">
+          <p>
+            <label class="visually-hidden" for="user-search">Введите тему поиска</label>
+            <input class="search-icon-search" ud="user-search" type="text" placeholder="Что ищем?">
+          </p>
+          <button class="user-navigation-inner">Вход</button>
+          <form class="login-form" action="????????" method="post">
+            <p>
+              <label class="visually-hidden" for="user-email">Введите электронную почту</label>
+              <input class="login-icon-emai" id="user-email" type="text" name="email" placeholder="Элетронная почта">
+            </p>
+            <p>
+              <label class="visually-hidden" for="user-password">Введите пароль</label>
+              <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+            </p>
+            <button class="butten" type="submit">Войти</button>
+            <a class="restore" href="#">Забыли пароль?</a>
+            <a class="restore" href="#">Новая регистрация</a>
+          </form>
+          <button class="user-navigation-inner">Пусто</button>
       </div>
     </nav>
   </header>
@@ -32,6 +57,9 @@
       <p>8 912 450-25-25</p>
     </div>
     <div class="presentation-ice-cream">
+      <button class="presentation-ice-cream-button" type="button"></button>
+      <button class="presentation-ice-cream-button" type="button"></button>
+      <button class="presentation-ice-cream-button" type="button"></button>
       <img src="img/presentation1.jpg" width="372" height="584" alt="Крем-брюле">
       <img src="img/presentation2.jpg" width="372" height="584" alt="Пломбир с малиновым джемом">
       <p class="presentation-ice-cream">Крем-брюле и пломбир с малиновым джемом</p>
@@ -112,7 +140,44 @@
           </div>
           <div class="mailing">
             <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
-            <!--здесь будет формa-->
+            <form class="login-form" action="????????" method="post">
+              <p>
+                <label class="visually-hidden" for="user-email">Введите электронную почту</label>
+                <input class="login-icon-emai" id="user-email" type="text" name="email" placeholder="Элетронная почта">
+              </p>
+              <button class="butten" type="submit">Отправить</button>
+          </div>
+        </section>
+        <section class="map">
+          <div class="container-map">
+            <p>Адрес главного офиса<br>
+              и офлайн магазина</br>
+              ул.Большая Конюшенная<br>
+              19/8, Санкт-Петербург<br>
+              <br>
+              <br>
+              Для заказов по телефону:<br>
+              8 812 450 25 25<br>
+              (c 10 до 20 ежедневно)<br>
+            </p>
+            <button class="butten" type="button">Отправить</button>
+          </div>
+          <div class="communication">
+            <p>Мы обязательно вам ответим!</p>
+            <form class="communication-form" action="????????" method="post">
+              <p class="communication-item">
+                <label class="visually-hidden" for="appointment-name">Введите ваше имя</label>
+                <input id="appointment-name" type="text" name="name" placeholder="Как вас зовут?">
+              </p>
+              <p class="communication-item">
+                <label class="visually-hidden" for="appointment-emai">Введите вашу почту</label>
+                <input id="appointment-emai" type="text" name="email" placeholder="Ваша почта для ответа?">
+              </p>
+              <p class="communication-item">
+                <label class="visually-hidden" for="appointment-question">Напишите ваш вопрос</label>
+                <input id="appointment-question" type="text" name="question" placeholder="Напишите что-нибудь...">
+              </p>
+              <button class="button" type="submit">Отправить</button>
           </div>
         </section>
   </main>

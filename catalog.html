@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>Сливочное мороженое</title>
 </head>
+
 <body>
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo" href="index.html">
-        <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина "Глэйси"">
+        <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина " Глэйси"">
       </a>
       <div class="site-navigation">
         <p class="site-navigation-current">Каталог</p>
         <a href="delivery-and-payment.html">Доставка и оплата</a>
         <a href="info.html">О компании</a>
       </div>
-      <div class="user-navigation">
-        <p class="search">Поиск</p>
-        <p class="login-link">Вход</p>
-        <p class="order cart">2 товара</p>
-      </div>
+      <section class="user-navigation">
+        <button class="user-navigation-inner">Поиск</button>
+        <button class="user-navigation-inner">Вход</button>
+        <p class "visually-hidden">Корзина</p>
+        <button class="user-navigation-inner">2 товара</button>
+        <div class="reservation">
+          <p><button class="delete" type="button">X</button>
+            <img src="img/ice-cream1.jpg" widht="20" height="20" alt="Пломбир с апельсиновым джемом">
+            <a href="#">Пломбир с апельсиновым джемом</a>
+            1,5кгх200руб 300руб
+          </p>
+          <p><button class="delete" type="button">X</button>
+            <img src="img/ice-cream3.jpg" widht="20" height="20" alt="Клубничный пломбир с присыпкой из белого шоколада">
+            <a href="#">Клубничный пломбир с присыпкой из белого шоколада</a>
+            1,5кгх300руб 450руб
+          </p>
+          <hr>
+          <p>Итого: 750руб.</p>
+          <button class="butten" type="button">Оформить заказ</button>
+        </div>
+      </section>
     </nav>
   </header>
   <main class="container">
@@ -184,14 +202,14 @@
       </ul>
     </section>
     <div class="pages">
- <ul>
- <li><a href="#">1</li>
- <li><a href="#">2</li>
- <li><a href="#">3</li>
- <li><a href="#">4</li>
-   <li><a href="#">5</li>
-     <li><a href="#">></li>
- </ul>
+      <ul>
+        <li><a href="#">1</li>
+        <li><a href="#">2</li>
+        <li><a href="#">3</li>
+        <li><a href="#">4</li>
+        <li><a href="#">5</li>
+        <li><a href="#">></li>
+      </ul>
     </div>
   </main>
   <footer class="main footer">
@@ -201,20 +219,21 @@
         <li><a class="social-button" href="#">Инстаграм</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
         <li><a class="social-button" href="#">Вконтакте<a></li>
-        </ul>
-      </div>
-      <div class="footer-documentation">
-        <ul class="documentation">
-          <li><a href="#">Для поставщиков</a></li>
-          <li><a href="#">Наши документы</a></li>
-          <li><a href="#">О производстве</a></li>
-          <li><a href="#">Экологические стандарты<a></li>
-          </ul>
-        </div>
-        <div class="footer-copyright">
-          <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
-          <p>Сделоно в HTML Academy © 2017</p>
-        </div>
-      </footer>
-    </body>
-    </html>
+      </ul>
+    </div>
+    <div class="footer-documentation">
+      <ul class="documentation">
+        <li><a href="#">Для поставщиков</a></li>
+        <li><a href="#">Наши документы</a></li>
+        <li><a href="#">О производстве</a></li>
+        <li><a href="#">Экологические стандарты<a></li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+      <p>Сделоно в HTML Academy © 2017</p>
+    </div>
+  </footer>
+</body>
+
+</html>
