@@ -1,0 +1,279 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: none;
+
+  background-color: #849d8f;
+}
+
+.site-navigation-current {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #d07058;
+  border-radius: 10px;
+}
+.user-navigation a {
+  text-decoration: none;
+}
+.main-navigation  {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #849d8f;
+  border-radius: 10px;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation a:focus {
+  text-decoration: none;
+  border-radius: 10px;
+  color: #242424;
+  background-color: #f7f6f3;
+}
+.reservation {
+  display: none
+}
+.catalog a{
+  text-decoration: none;
+  color: #323232;
+  background-color: #ffffff;
+  font-weight: normal;
+  border-radius: none;
+}
+
+
+.catalog a:hover,
+.catalog a:focus {
+  background-color: #fbded7;
+  text-decoration: none;
+}
+
+.catalog {
+  list-style: none;
+}
+
+.catalog a:active {
+  text-decoration: none;
+  background-color: #f6b5a5;
+}
+
+.breadcrumbs {
+  line-height: 16px;
+  list-style: none;
+  font-family: "Roboto Regular";
+  font-weight: normal;
+}
+
+
+.breadcrumbs a {
+  color: #ffffff;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  color: #ffbc9e;
+  text-decoration: none;
+}
+
+.breadcrumbs-current {
+  text-decoration: none;
+  color: #323232;
+}
+
+.time p{
+  line-height: 16px;
+}
+
+.phone a{
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.page-title {
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.catalog-list {
+  list-style: none;
+  text-decoration: underline;
+
+}
+.catalog-list-item {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Roboto Medium";
+
+
+
+}
+.catalog-list-item a{
+  background-color: #849d8f;
+  color: #ffffff;
+}
+.catalog-list-item a:focus,
+.catalog-list-item a:hover {
+  text-decoration: underline;
+  background-color: #849d8f;
+  color: #ffffff;
+}
+.catalog-ice-cream img {
+  border-radius: 150px;
+  background-color: #849d8f;
+
+}
+
+
+
+.product-snippet b {
+  text-decoration: none;
+  font-size: 45px;
+  line-height: 45px;
+}
+.measure {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.info {
+  color: #323232;
+  background-image: url("../img/background1.jpg");
+  background-color: #d9ceb4;
+  background-repeat: repeat;
+}
+
+.info h1{
+  font-family: "Roboto Medium";
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.info-table {
+  font-family: "Roboto Regular";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.serving {
+  color: #323232;
+
+  background-image: url("../img/background2.jpg");
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+}
+
+.serving h2 {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Roboto Medium";
+}
+
+.serving h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Roboto Bold";
+  text-decoration: underline;
+}
+.serving h3:hover,
+.serving h3:focus,
+.serving h3:active {
+  text-decoration: none;
+}
+
+.mailing {
+  background-image: url("../img/background3.png");
+  background-repeat: no-repeat;
+
+}
+.block-shadow {
+  background-color: #f8f7f4;
+
+}
+
+.mailing p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #5a5a5a;
+  font-family: "Roboto Regular";
+  font-weight: normal;
+}
+.button {
+  font: inherit;
+  background-color: #e84d37;
+  text-align: center;
+  color: #fefefe;
+  vertical-align: middle;
+  border-radius: 10px;
+
+  background-color: #e84d37;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #;
+}
+
+.login-icon-emai input {
+
+  font-family: "Roboto Regular";
+  font-size: 16px;
+  line-height: 24px;
+
+  border: 1px solid #d3d3d2;
+  border-radius: 5px;
+}
+.main-footer a {
+  font-family: "Roboto Regular";
+  font-weight: normal;
+  color: #ffffff;
+}
+.main-footer ul {
+  list-style: none;
+  font-size: 13px;
+  line-height: 18px;
+}
+.footer-social {
+  position: absolute;
+  text-align: left;
+}
+
+
+.footer-documentation {
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.footer-copyright {
+  position: absolute;
+  text-align: right;
+  right: 50px;
+}
+
+.documentation a:hover,
+.documentation a:focus,
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+  text-decoration: none;
+  color: #ffbc9e;
+
+}
+
+.footer-copyright {
+  font-size: 12px;
+  line-height: 18px;
+}
