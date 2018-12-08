@@ -5,13 +5,12 @@ body {
   font-weight: 700;
   color: #ffffff;
   text-transform: none;
-
   background-color: #849d8f;
 }
+
 .main-navigation .site-navigation {
   line-height: 18px;
   color: #ffffff;
-
   background-color: #849d8f;
 }
 
@@ -41,8 +40,8 @@ body {
   display: none;
 }
 
-.main-navigation a:hover,
-.main-navigation a:focus {
+.main-header-inside a:hover,
+.main-header-inside a:focus {
   text-decoration: none;
   border-radius: 10px;
   color: #242424;
@@ -75,7 +74,7 @@ body {
   line-height: 16px;
 }
 
-.phone  {
+.phone {
   font-size: 22px;
   line-height: 24px;
 }
@@ -94,13 +93,14 @@ body {
   font-weight: normal;
 }
 
-.info h1{
+.info h1 {
   font-weight: normal;
   font-size: 24px;
   line-height: 30px;
   font-weight: normal;
 }
-.serving  {
+
+.serving {
   color: #323232;
   background-image: url("../img/background2.jpg");
   background-color: #f3f3f3;
@@ -173,11 +173,12 @@ body {
   line-height: 22px;
   list-style: none;
 }
+
 .catalog-list {
   list-style: none;
 }
 
-.catalog-list-item a{
+.catalog-list-item a {
   background-color: #849d8f;
   color: #ffffff;
 }
@@ -211,7 +212,7 @@ body {
   font-weight: normal;
 }
 
-.main-footer a{
+.main-footer a {
   color: #ffffff;
   background-color: #849d8f;
 }
